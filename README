@@ -1,0 +1,10 @@
+Solves the SameGame for Psion by Jon Read
+
+I wanted to write a simple script that would understand
+the SameGame, (and all the others that came after that).
+To begin with I planned to write a bruteforce solver
+that simple walks all of the paths, and then find ways
+to optimise it.
+
+This is just a hoby-script, so the code isn't perfect
+but it should be fairly clear what each part does.
