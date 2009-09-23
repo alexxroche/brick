@@ -1,0 +1,19 @@
+take input of a puzzle
+  check for exising solution
+  create colout map if needed
+check for number of solutions required and exiting number
+	if($number_of_solutions >= $required_solutions){ last LOOP;}
+LOOP: 
+Create lock || sleep
+add outcome if found
+read solution hash
+check for number of solutions required and exiting number
+	if($number_of_solutions >= $required_solutions){ last LOOP;}
+check offset
+find next branch
+mark branch with #$$ . time
+write sol
+remove lock
+find clickable
+try each
+next LOOP;
